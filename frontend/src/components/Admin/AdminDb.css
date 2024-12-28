@@ -1,0 +1,178 @@
+/* Admin Dashboard Container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* Heading */
+.dashboard-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Feedback List */
+.feedback-list {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+/* Feedback Item */
+.feedback-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.feedback-item:last-child {
+    border-bottom: none;
+}
+
+/* Feedback Title and Status */
+
+.feedback-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+    gap: 1rem;
+    width: 40vw;
+}
+
+.feedback-title {
+    font-weight: bold;
+    flex: 1;
+}
+
+.feedback-description {
+    flex: 3;
+    font-size: 0.9rem;
+    color: #555;
+}
+.feedback-submission-date {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.feedback-status {
+    flex: 1;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+/* Color styles based on status */
+.feedback-status.in-progress {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.feedback-status.resolved {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.feedback-status.pending {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.feedback-priority {
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feedback-priority.low {
+    background-color: #ffd700; /* Dark Yellow for Low */
+    color: #4b4b00;
+}
+
+.feedback-priority.medium {
+    background-color: #ffa500; /* Orange for Medium */
+    color: #b45f00;
+}
+
+.feedback-priority.high {
+    background-color: #dc3545; /* Red for High */
+    color: #fff;
+}
+
+/* Buttons */
+.dashboard-button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.dashboard-button.update {
+    background-color: #007bff;
+    /* Blue */
+}
+
+.dashboard-button.update:hover {
+    background-color: #0056b3;
+}
+
+.dashboard-button.resolve {
+    background-color: #28a745;
+    /* Green */
+}
+
+.dashboard-button.resolve:hover {
+    background-color: #1e7e34;
+}
+
+.dashboard-button.delete {
+    background-color: #dc3545;
+    /* Red */
+}
+
+.dashboard-button.delete:hover {
+    background-color: #b21f2d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-container {
+        width: 95vw;
+        /* Reduce width for smaller screens */
+    }
+
+    .feedback-list {
+        width: 100%;
+    }
+
+    .feedback-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dashboard-button {
+        margin: 0.5rem 0 0 0;
+    }
+}
