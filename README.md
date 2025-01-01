@@ -21,7 +21,6 @@ The admin has access to a dashboard where feedback can be viewed, updated, and s
 
 ### Frontend-deployement
 
-
 1. Navigate to the backend directory. 
 ```bash
  git clone https://github.com/Ishimistic/FeedbackManagement.git
@@ -35,7 +34,7 @@ npm install
 
 4. Set up environment variables in .env:
 ```bash
-PORT=4000
+REACT_APP_BACKEND_URL=4000
 ```
 
 3. Start the react app
@@ -43,9 +42,9 @@ PORT=4000
 npm start
 ```
 
-4. Access the frontend at http://localhost:4000.
+4. Access the frontend at http://localhost:3000.
 
----
+--
 ## Backend
 
 ##Tech Stack: 
@@ -87,11 +86,10 @@ npm run dev
 ## Folder Structure 
 bash
 FeedbackManagement/
-│
-├── frontend/                   # React frontend
-├── backend/                    # Node.js Express backend
+- │
+- ├── frontend/                   # React frontend
+- ├── backend/                    # Node.js Express backend
+
 
 ## License
-
-
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the LICENSE file for details.
