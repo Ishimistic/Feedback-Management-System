@@ -3,25 +3,23 @@
 This project iThe Feedback Management System is a full-stack web application for submitting and managing user feedback. Users can submit feedback related to products, services, or support, categorizing it by type and priority. The system includes user authentication and basic data validation. Upon successful submission, users are redirected to the login page after a short delay.
 
 The admin has access to a dashboard where feedback can be viewed, updated, and sorted by priority. Admins can mark feedback as "In Progress" or "Resolved," helping streamline feedback management and resolution.
-
-The frontend is built with React, and the backend is developed using Node.js, Express, and MongoDB for storing feedback data.
 ---
 
 ## Frontend
 
-###Tech Stack: 
+### Tech Stack: 
 -React.js
 -Axios
 -CSS
 
-###Features:
+### Features:
 1. Feedback submission form with title, description, category, and priority.
 2. Basic validation and error handling, loading state during submission.
 3. Redirection to the login page after few seconds of successful submission.
 4. Admin dashboard to view and manage feedback.
 
 
-### Backend-deployement
+### Frontend-deployement
 
 
 1. Navigate to the backend directory. 
@@ -33,6 +31,11 @@ cd FeedbackManagement
 2. Install dependencies:
 ```bash
 npm install
+```
+
+4. Set up environment variables in .env:
+```bash
+PORT=4000
 ```
 
 3. Start the react app
