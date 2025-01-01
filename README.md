@@ -1,7 +1,6 @@
 # FeedbackManagement
 
 This project iThe Feedback Management System is a full-stack web application for submitting and managing user feedback. Users can submit feedback related to products, services, or support, categorizing it by type and priority. The system includes user authentication and basic data validation. Upon successful submission, users are redirected to the login page after a short delay.
-
 The admin has access to a dashboard where feedback can be viewed, updated, and sorted by priority. Admins can mark feedback as "In Progress" or "Resolved," helping streamline feedback management and resolution.
 ---
 
