@@ -44,7 +44,7 @@ npm start
 
 4. Access the frontend at http://localhost:3000.
 
---
+
 ## Backend
 
 ##Tech Stack: 
@@ -53,7 +53,7 @@ npm start
 -MongoDB
 -JWT
 
-##Features:
+## Features:
 1. REST API for feedback submission.
 2. JWT authentication for secure feedback submission.
 3. Basic error handling.
