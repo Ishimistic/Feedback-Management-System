@@ -86,9 +86,9 @@ npm run dev
 ## Folder Structure 
 bash
 FeedbackManagement/
-- │
-- ├── frontend/                   # React frontend
-- ├── backend/                    # Node.js Express backend
+│
+ ├── frontend/                   # React frontend
+ ├── backend/                    # Node.js Express backend
 
 
 ## License
