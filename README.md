@@ -92,4 +92,3 @@ FeedbackManagement/
 
 
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the LICENSE file for details.
-# :: arrange all this right for git hub repo, as it's not right yet, it forms just one para without any space in between
