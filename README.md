@@ -83,12 +83,12 @@ npm run dev
 5. The backend API will be available at http://localhost:4000.
 
 ## Folder Structure 
-bash
+```bash
 FeedbackManagement/
 │
-- ├── frontend/                   # React frontend
-- ├── backend/                    # Node.js Express backend
-
+├── frontend/                   # React frontend
+├── backend/                    # Node.js Express backend
+```
 
 ## License
 This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License - see the LICENSE file for details.
